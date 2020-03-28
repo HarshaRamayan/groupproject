@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+        <body>
+            <script type="text/javascript" src="code.js"></script>
+            <img src="./account.jpg" class="rec">
+            <div class="recovery">
+                <h1> Account Recovery </h1><br>
+
+                <form>
+
+                    <form name="myform" onsubmit="return validate()">
+                <fieldset>
+                    <legend> Your linked Email </legend>
+                    <p>
+                       <input type="radio" value="email" id="email" onclick="myFunction()"><label> Email </label> <input type="text" id="txt1" disabled><br>
+                    </p>
+                </fieldset>
+                   <br>
+                <fieldset>
+                    <legend> Your linked Mobile number </legend>
+                    <p>  
+                    <input type="radio" value="phone" id="phone" onclick="myFunction2()"><label> Mobile </label> <input type="text" id="txt2" onkeypress="return(event.charCode!=8 &&
+                    event.charCode==0 || (event.charCode>=48 && event.charCode<=57))" disabled> <br>
+                    </p>
+                    </fieldset>
+                </form>
+                <div>
+                    <button type="button" onclick="fun3()" class="submit"> Submit
+                    <button onclick="window.location.href='./Login1.html';" class="button">Go Back</button> 
+                    <p id="selection"></p>                 
+                 </div>
+                 <p id="demo"></p>
+                </form>
+                </div>             
+        </body>
+</html>
