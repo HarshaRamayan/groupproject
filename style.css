@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
+.Login-In{
+    width: 330px;
+    height: 420px;
+    background: rgba(14, 2, 2, 0);
+    color: rgb(139, 18, 18);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+/*size of the login attributes*/
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+/*alignment of the login attributes*/
+.Login-In p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+/*input attributes width and margin*/
+.Login-In input
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+/*spacing and width between text boxes*/
+.Login-In input[type="text"], input[type="password"]
+{
+    border: black;
+    border-bottom: 1px solid rgb(121, 24, 24);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+/*alignment of the ikea image*/
+.ikea
+{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 2;
+}
+.home{
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    bottom: 25px;
+    z-index: 2;
+}
+.p{
+    position: static;
+    top: 28px;
+    left: 28px;
+}
+
+/*font and design of the text on the button*/
+.Login-In input[type="Submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #22352b;
+    color: rgb(197, 69, 30);
+    font-size: 18px;
+    border-radius: 20px;    
+}   
+/*font and design of the text, when hover on the button */
+.Login-In input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: green;
+    color: rgb(18, 36, 138);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.Login-In a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: maroon ;
+}
+.Login-In a:hover
+{
+    color: #32c072;
+}
+
+.recovery{
+    
+        position: absolute;
+        top: 130px;
+        left: 450px;
+        z-index: 2;
+}
+
+.recovery input[type="Submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #22352b;
+    color: rgb(197, 69, 30);
+    font-size: 18px;
+    border-radius: 20px;   
+    position: absolute;
+    top: 115%;
+    left: 60px; 
+    
+    
+}
+.recovery input[type="text"], input[type="password"]
+{
+    border: black;
+    border-bottom: 1px solid rgb(121, 24, 24);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+.recovery input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(226, 126, 11);
+    color: rgb(18, 36, 138);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #22352b;
+    color: rgb(197, 69, 30);
+    font-size: 18px;
+    border-radius: 20px;   
+    position: absolute;
+    top: 115%;
+    left: 195px;
+}
+.button:hover{
+    cursor: pointer;
+    background: rgb(226, 126, 11);
+    color: rgb(18, 36, 138);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.submit{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #22352b;
+    color: rgb(197, 69, 30);
+    font-size: 18px;
+    border-radius: 60px;   
+    position: absolute;
+    top: 115%;
+    left: 45px;
+}
+.submit:hover{
+    cursor: pointer;
+    background: rgb(226, 126, 11);
+    color: rgb(18, 36, 138);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.signup{
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        width: 90%;
+        
+        
+        z-index: 6;
+}
+.signup input[type="text"]
+{
+    border: black;
+    border-bottom: 1px solid rgb(121, 24, 24);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+.address{
+    position: relative;
+    width: 100%;
+}
+.button1{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #22352b;
+    color: rgb(197, 69, 30);
+    font-size: 18px;
+    border-radius: 20px;   
+    position: absolute;
+    top: 115%;
+    left: 225px;
+}
+.button1:hover{
+    
+        cursor: pointer;
+        background: rgb(207, 243, 77);
+        color: rgb(18, 36, 138);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.user input[type="date"]
+{
+    
+    background: rgb(175, 231, 21);
+    
+}
+.user{
+    position: relative;
+    
+}
+.btn{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #22352b;
+    color: rgb(197, 69, 30);
+    font-size: 18px;
+    border-radius: 20px;   
+    position: absolute;
+    top: 115%;
+    left: 95px;
+}
+.btn:hover{
+    cursor: pointer;
+    background:  rgb(207, 243, 77);
+    color: rgb(18, 36, 138);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.about{
+    position: absolute;
+    top: 85%;
+    left: 50px;
+}
+.abt{
+    position: absolute;
+    top: 25%;
+    left: 35px;
+}
+.abt1{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+
+}
+.Sriharsha {
+    position: absolute;
+    top: 35px;
+    left: 38px;
+    z-index: 2;
+    height: 100px;
+}
+.Leela{
+    position: absolute;
+    top: 35px;
+    left: 79%;
+    z-index: 2;
+    height: 100px;
+
+}
+.gitlink1{
+    position: absolute;
+    left: 135px;
+    top: 63px;
+}
+.gitlink2{
+    position: absolute;
+    left: 135px;
+    top: 62px;
+}
+.abt2{
+    position: absolute;
+    left: 40%;
+    top: 60px;
+
+}
+.btn2{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #22352b;
+    color: rgb(197, 69, 30);
+    font-size: 18px;
+    border-radius: 20px;   
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.btn2:hover{
+    cursor: pointer;
+    background:  rgb(241, 189, 17);
+    color: rgb(18, 36, 138);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

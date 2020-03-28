@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Survey.css">
+        <script src="./Survey.js"></script>
+    </head>
+    <body onload="loadquestionnaire(0,1)">
+        <input type="button" id="logout" value="Log Out" onclick="logout()"></input><br>
+        <div><img src="./ikea.jpg" class="logo"></div>
+        <div class="main">
+        <div id ="myDiv" class="survey"><br>
+            <h2>How do you feel about IKEA? We Need Your Feedback!</h2>
+            <div id="report">   
+            <label id="Q1" class="question"></label><br>
+            <fieldset>
+                <input id="A1" type="radio" class="answer" name="group1"></input>
+                <label for="A1">Good</label>
+                &nbsp; 
+                <input id="A2" type="radio" class="answer" name="group1"></input>
+                <label for="A2">Bad</label>
+            </fieldset>
+            
+            <label id="Q2" class="question"></label><br>
+            <fieldset>
+                <input id="A1" type="radio" class="answer" name="group1"></input>
+                <label for="A1">Yes</label>
+                &nbsp; 
+                <input id="A2" type="radio" class="answer" name="group1"></input>
+                <label for="A2">No</label>
+            </fieldset>
+            <label id="Q3" class="question"></label><br>
+            <fieldset>
+                <input id="A1" type="radio" class="answer" name="group1"></input>
+                <label for="A1">Good</label>
+                &nbsp; 
+                <input id="A2" type="radio" class="answer" name="group1"></input>
+                <label for="A2">Bad</label>
+            </fieldset>
+            <label id="Q4" class="question"></label><br>
+            <fieldset>
+                <input id="A1" type="radio" class="answer" name="group1"></input>
+                <label for="A1">Good</label>
+                &nbsp; 
+                <input id="A2" type="radio" class="answer" name="group1"></input>
+                <label for="A2">Bad</label>
+            </fieldset>
+            <label id="Q5" class="question"></label><br>
+            <fieldset>
+                <input id="A1" type="radio" class="answer" name="group1"></input>
+                <label for="A1">Good</label>
+                &nbsp; 
+                <input id="A2" type="radio" class="answer" name="group1"></input>
+                <label for="A2">Bad</label>
+            </fieldset>
+         </div>
+            <input type="button" id="submit" value="Submit" onclick="submit()"></input><br>
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Dear Customer,<br>
+                    <br>Thank you for taking the time to complete our online survey regarding your vist to IKEA.</p>
+                </div>
+                  
+            </div>
+                  
+            <div id="navigation">
+            <input type="button" id="previous" onclick="paginate('Previous')" value="&laquo; Previous" disabled></button>
+            <input type="button" id="next" onclick="paginate('Next')" value="Next &raquo;"></button>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
